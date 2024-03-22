@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0px !important;
+  margin: 0px !important;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.carousel .control-dots .dot {
+  border-radius: 0% !important;
+  width: 20px !important;
+  height: 2px !important;
+  background-color: #1273eb !important;
+}
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  z-index: 0 !important;
+}

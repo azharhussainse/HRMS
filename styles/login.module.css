@@ -1,0 +1,125 @@
+.card {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background: linear-gradient(
+    153.31deg,
+    #1273eb 1.1%,
+    rgba(22, 180, 235, 0.4) 100%
+  );
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.cardLeft {
+  flex: 0.6;
+  padding: 20px;
+}
+
+.loginDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.textLogin {
+  color: #ffffff;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.textLogin2 {
+  color: #ffffff;
+  font-family: 'Roboto-Regular', Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.leftCardTextField {
+  width: 430px;
+}
+
+.error {
+  color: red;
+}
+
+.forgotPassword {
+  display: flex;
+  align-self: flex-start;
+  margin-top: -10px;
+  padding-left: 120px;
+}
+
+.forgotPassword2 {
+  color: #fff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.loginbutton {
+  background: linear-gradient(
+    180deg,
+    rgb(23, 203, 235) 0%,
+    rgb(18, 115, 235) 100%
+  );
+  border-radius: 20px;
+  height: 48px;
+  width: 156px;
+  color: #ffffff;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.cardRight {
+  flex: 0.75;
+  height: 100%;
+  background: #fff;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+
+.cardRightDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 28%;
+  left: 30%;
+}
+
+.cardRightDetails2 {
+  color: #127beb;
+  font-family: 'Roboto-Bold', Helvetica;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
+
+
